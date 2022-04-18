@@ -15,7 +15,7 @@ public class ConvertDoubleIntoAnInt {
 
         System.out.println("double value: "+doublevar);
 
-        System.out.println("int: "+intvar);
+        System.out.println("int value: "+intvar);
     }
 }
 
