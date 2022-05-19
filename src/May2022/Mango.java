@@ -9,3 +9,13 @@ public class Mango extends Fruit{
         System.out.println("number of mangoes are: "+mg.number);
     }
 }
+
+
+/**
+ * OUTPUT
+ * the colour of mango is: yellow
+ * number of mangoes are: 40
+ *
+ * In this program, we created fruit superclass.
+ * Then, we created child class from superclass.
+ */
