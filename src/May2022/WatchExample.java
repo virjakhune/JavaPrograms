@@ -5,14 +5,17 @@ package May2022;
  * Author:Virja Khune
  */
 public class WatchExample implements Watch{
-    @Override
-    public void tickTick() {
-        System.out.println("Tik Tik ...");
-    }
 
     public static void main(String[] args) {
-        WatchExample we = new WatchExample();
-        we.tickTick();
+
+        Netwrok n = new Netwrok();
+        n.doInternetWork(new WatchExample());
+
+    }
+
+    @Override
+    public void tickTick() {
+
     }
 }
 /**
