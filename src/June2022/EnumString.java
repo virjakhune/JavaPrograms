@@ -10,6 +10,7 @@ public class EnumString {
     public static void main(String[] args) {
         System.out.println("The colour is: "+Colours.RED.toString());
         System.out.println("The colour is: "+Colours.GREEN.name());
+
     }
 }
 

@@ -8,8 +8,8 @@ package June2022;
 
 public class SingletonClassExample {
     public static void main(String[] args) {
-        College clg1= College.getInstance();
-        College clg2= College.getInstance();
+        //College clg1= College.getInstance();
+        //College clg2= College.getInstance();
     }
 }
 
